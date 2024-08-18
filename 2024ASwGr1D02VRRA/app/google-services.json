@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "969610148031",
+    "project_id": "vrra-d02-sw",
+    "storage_bucket": "vrra-d02-sw.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969610148031:android:9bf37939708b8e700b6e0a",
+        "android_client_info": {
+          "package_name": "com.example.a2024aswgr1d02vrra"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFZmXmY25rHa4aAtHVtzV3kxQoR-zmzZA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
