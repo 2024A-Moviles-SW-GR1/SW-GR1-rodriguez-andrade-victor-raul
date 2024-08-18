@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NotificacionesFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerNotificaciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_mis_publ"
+        android:layout_marginTop="15dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_menciones"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginVertical="8dp"
+        android:layout_marginEnd="102dp"
+        android:background="@drawable/button_border"
+        android:text="Menciones"
+        android:textAllCaps="false"
+        android:textColor="#adadad"
+        android:textSize="14sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_mis_publ"
+        android:layout_width="130dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginVertical="8dp"
+        android:layout_marginEnd="195dp"
+        android:background="@drawable/button_border"
+        android:text="Mis Publicaciones"
+        android:textAllCaps="false"
+        android:textColor="#adadad"
+        android:textSize="14sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_todo"
+        android:layout_width="67dp"
+        android:layout_height="28dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginVertical="8dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="6dp"
+        android:layout_toStartOf="@+id/btn_mis_publ"
+        android:background="@drawable/button_selected"
+        android:text="Todo"
+        android:textAllCaps="false"
+        android:textColor="#FFFF"
+        android:textSize="14sp" />
+
+
+
+
+</RelativeLayout>

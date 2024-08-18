@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "594634898240",
+    "project_id": "app-linkedin",
+    "storage_bucket": "app-linkedin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594634898240:android:5cc1d99fa7607fbf1718a5",
+        "android_client_info": {
+          "package_name": "com.example.deber03"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7QAApT6dAr-t6rxHACLC74Kis67HRmLU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

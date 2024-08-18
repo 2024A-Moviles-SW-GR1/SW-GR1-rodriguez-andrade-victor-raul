@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+
+    <group android:id="@+id/group_saved" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_saved_posts"
+            android:title="Publicaciones guardadas"
+            android:textAppearance="@style/NavMenuItemTextStyle" />/>
+        <item
+            android:id="@+id/nav_groups"
+            android:title="Grupos"
+            android:textAppearance="@style/NavMenuItemTextStyle" />
+        />
+
+        <item android:id="@+id/nav_spacer"
+            android:title=""
+            android:enabled="false"
+            android:checkable="false" />
+        <item android:id="@+id/nav_spacer1"
+            android:title=""
+            android:enabled="false"
+            android:checkable="false" />
+        <item android:id="@+id/nav_spacer2"
+            android:title=""
+            android:enabled="false"
+            android:checkable="false" />
+        <item android:id="@+id/nav_spacer3"
+            android:title=""
+            android:enabled="false"
+            android:checkable="false" />
+        <item android:id="@+id/nav_spacer4"
+            android:title=""
+            android:enabled="false"
+            android:checkable="false" />
+        <item android:id="@+id/nav_spacer5"
+            android:title=""
+            android:enabled="false"
+            android:checkable="false" />
+    </group>
+
+
+
+    <group android:id="@+id/group_settings" android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_settings"
+            android:title="Configuración"
+            android:textAppearance="@style/NavMenuItemTextStyle"
+            android:icon="@drawable/baseline_settings_24" />
+    </group>
+</menu>
